@@ -1,0 +1,38 @@
+QUANTUM-ENHANCED MEDICAL DIAGNOSIS RESULTS
+==================================================
+
+QUANTUM MODEL PERFORMANCE:
+Accuracy: 0.6579 (65.8%)
+AUC: 0.6647
+
+Detailed Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.53      0.69      0.60        42
+           1       0.78      0.64      0.70        72
+
+    accuracy                           0.66       114
+   macro avg       0.65      0.66      0.65       114
+weighted avg       0.69      0.66      0.66       114
+
+
+CLASSICAL MODEL PERFORMANCE:
+Accuracy: 0.9649 (96.5%)
+AUC: 0.9673
+
+Detailed Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.93      0.98      0.95        42
+           1       0.99      0.96      0.97        72
+
+    accuracy                           0.96       114
+   macro avg       0.96      0.97      0.96       114
+weighted avg       0.97      0.96      0.97       114
+
+
+MODEL COMPARISON:
+Quantum Advantage: -30.70% accuracy improvement
+Total Training Samples: 455
+Total Testing Samples: 114
+Quantum Features: 8 (reduced from 30 via PCA)
