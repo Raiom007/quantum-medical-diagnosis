@@ -1,0 +1,11 @@
+{
+    "python.defaultInterpreterPath": "./quantum_env/Scripts/python.exe",
+    "python.terminal.activateEnvironment": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "files.associations": {
+        "*.py": "python"
+    },
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true
+}

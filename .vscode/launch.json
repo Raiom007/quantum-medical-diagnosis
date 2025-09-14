@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Quantum Medical Diagnosis",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "Run Data Preparation",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/data_preparation.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Run Quantum Classifier",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/quantum_classifier.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}
